@@ -1,9 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Yuma Naito <付けたければメールアドレス>
+
 import sys
-   
-ans = 0.0
-for line in sys.stdin:
-    ans += float(line)
-     
-print(ans)
+・・・
 
