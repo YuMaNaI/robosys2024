@@ -19,5 +19,9 @@ out=$(echo | ./plus)              #なにも入力しない
 [ "$?" = 1 ]      || ng "$LINENO" #これも異常終了する
 [ "${out}" = "" ] || ng "$LINENO"
   　 
+<<<<<<< HEAD
 [ "$res" = 0 ] && echo OK
+=======
+[ "${res}" = 0 ] && echo OK
+>>>>>>> refs/remotes/origin/main
 exit $res
