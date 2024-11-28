@@ -8,11 +8,10 @@
   
 ## インストール方法
 kadai1.pyというファイルを作る
-'''vi kadai1.py'''
+```vi kadai1.py```
 
 サンプルコード
-'''
-#!/usr/bin/python3
+```#!/usr/bin/python3
 # SPDX-FileCopyrightText: 2024 Yuma Naito
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
@@ -31,26 +30,25 @@ def main():
     print(f"速さ: {speed} メートル/秒")
 
 if __name__ == "__main__":
-    main()
-'''
+    main()```
 
 kadai1.pyと同じ場所でnums1というファイルを作る。
-'''vi nums1'''  
+```vi nums1```  
 
 距離（スペース）時間　を入力する。 
 例(nums1)
-'''100 10'''
+```100 10```
 
 
   
 ## 実行例  
 方法1  
-'''$echo "100 10" | ./kadai1.py'''  
+```$echo "100 10" | ./kadai1.py```  
 出力→速さ: 10.0 メートル/秒  
   
 方法2  
-'''$echo "100 5" > nums1'''  
-'''$cat nums1 | ./kadai1.py'''  
+```$echo "100 5" > nums1```
+```$cat nums1 | ./kadai1.py```
 出力→速さ: 20.0 メートル/秒  
   
 ## 必要なソフトウェア  
