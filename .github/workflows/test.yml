@@ -20,11 +20,8 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}  # 使用する Python のバージョン
 
-      - name: Grant execute permissions to the script
-        run: chmod +x kadai1.py  # kadai1.py に実行権限を付与
-
       - name: Run the script with input
-        run: echo "100 10" | ./kadai1.py > output.txt  # 標準入力を渡して実行
+        run: echo "100 10" | python3 kadai1.py > output.txt  # Python を明示的に指定して実行
 
       - name: Check output
         run: |
