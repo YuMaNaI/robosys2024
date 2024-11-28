@@ -7,11 +7,12 @@
 ![test](https://github.com/YuMaNaI/robosys2024/actions/workflows/test.yml/badge.svg)  
   
 ## インストール方法
-kadai1.pyというファイルを作る
+kadai1.pyというファイルを作る  
 ```vi kadai1.py```
 
 サンプルコード
-```#!/usr/bin/python3
+```
+#!/usr/bin/python3
 # SPDX-FileCopyrightText: 2024 Yuma Naito
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
@@ -30,12 +31,13 @@ def main():
     print(f"速さ: {speed} メートル/秒")
 
 if __name__ == "__main__":
-    main()```
+    main()
+```
 
-kadai1.pyと同じ場所でnums1というファイルを作る。
+kadai1.pyと同じ場所でnums1というファイルを作る。  
 ```vi nums1```  
 
-距離（スペース）時間　を入力する。 
+距離（スペース）時間　を入力する。  
 例(nums1)
 ```100 10```
 
