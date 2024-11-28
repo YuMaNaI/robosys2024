@@ -5,7 +5,11 @@
 - このプログラムは速度を計算するプログラムです。  
 - 距離と時間を値として入れると速度（メートル/秒）を導出します。
 ![test](https://github.com/YuMaNaI/robosys2024/actions/workflows/test.yml/badge.svg)  
-  
+
+
+https://github.com/YuMaNaI/robosys2024/blob/main/test_results.txt   
+
+ 
 ## 使用方法
 kadai1.pyというファイルを作る  
 ```$ vi kadai1.py```
@@ -59,6 +63,8 @@ kadai1.pyと同じ場所でnums1というファイルを作る。
   
 ## テスト環境  
 - Ubuntu 24.04 LTS  
+
+
   
 ## ライセンス  
 - このソフトパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます  
@@ -68,5 +74,5 @@ kadai1.pyと同じ場所でnums1というファイルを作る。
 https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f  
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-- 下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）は，本人の許可を得て自身の著作としたものです．
+- 下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）は，本人の許可を得て自身の著作とし、参考にしたものです．
     - [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
