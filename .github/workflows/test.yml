@@ -1,12 +1,27 @@
 name: test
-on: push
+
+on:
+  push:
+    branches:
+      - main  # main ブランチへの push でトリガー
+
 jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.7","3.8","3.9","3.10","3.11"]
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]  # 複数の Python バージョンでテスト
+
     steps:
-    - uses: actions/checkout@v3
-    - name: All test
-      run: echo -e "100\n10" | ./kadai1.py
+      - uses: actions/checkout@v3  # リポジトリのコードをクローン
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}  # 使用する Python のバージョン
+
+      - name: Grant execute permissions to the script
+        run: chmod +x kadai1.py  # スクリプトに実行権限を付与
+
+      - name: Run the test
+        run: echo -e "100\n10" | ./kadai1.py  # 標準入力で距離と時間を渡す
