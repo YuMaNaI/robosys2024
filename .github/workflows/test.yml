@@ -21,14 +21,15 @@ jobs:
           python-version: ${{ matrix.python-version }}  # 使用する Python のバージョン
 
       - name: Run the script with input
-        run: echo "100 10" | python3 kadai1.py > output.txt  # Python を明示的に指定して実行
+        run: echo "100 10" | python3 kadai1.py > output.txt  # Python を使ってスクリプトを実行
 
-      - name: Check output
+      - name: Validate output
         run: |
-          output=$(cat output.txt)
           expected="速さ: 10.0 メートル/秒"
-          if [[ "$output" != "$expected" ]]; then
+          output=$(cat output.txt)
+          if [ "$output" != "$expected" ]; then
             echo "Test failed: got '$output', expected '$expected'"
             exit 1
           else
             echo "Test passed: $output"
+          fi
