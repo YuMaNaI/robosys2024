@@ -8,6 +8,8 @@
 ## テスト  
 ![test](https://github.com/YuMaNaI/robosys2024/actions/workflows/test.yml/badge.svg)  
 
+test.bashを実行>test_results.txt  
+
 https://github.com/YuMaNaI/robosys2024/blob/main/test_results.txt   
 
  
