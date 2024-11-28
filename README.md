@@ -3,9 +3,10 @@
   
 ## 概要  
 - このプログラムは速度を計算するプログラムです。  
-- 距離と時間を値として入れると速度（メートル/秒）を導出します。
-![test](https://github.com/YuMaNaI/robosys2024/actions/workflows/test.yml/badge.svg)  
+- 距離と時間を値として入れると速度（メートル/秒）を導出します。   
 
+##テスト  
+![test](https://github.com/YuMaNaI/robosys2024/actions/workflows/test.yml/badge.svg)  
 
 https://github.com/YuMaNaI/robosys2024/blob/main/test_results.txt   
 
