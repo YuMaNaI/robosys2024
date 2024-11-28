@@ -27,4 +27,4 @@ jobs:
       - name: Run the test
         run: |
           # nums1 ファイルの内容を標準入力として渡してテストを実行
-          echo -e "100\n10" | python kadai1.py 
+          echo -e "100\n10" | python3 kadai1.py 
