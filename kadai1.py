@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Yuma Naito
+# SPDX-License-Identifier: BSD-3-Clause
 import sys
 
 def main():
