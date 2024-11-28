@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]  # 複数の Python バージョンでテスト
 
     steps:
       - uses: actions/checkout@v3  # リポジトリのコードをクローン
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}  # テストする Python のバージョンを指定
+          python-version: ${{ matrix.python-version }}  # 使用する Python のバージョン
 
       - name: Install dependencies
         run: |
@@ -26,5 +26,5 @@ jobs:
 
       - name: Run the test
         run: |
-          # nums1 ファイルの内容を標準入力として渡してテストを実行
-          echo -e "100\n10" | python3 kadai1.py 
+          # nums1 の内容を標準入力として渡してテストを実行
+          echo -e "100\n10" | python3 kadai1.py  # 標準入力で距離と時間を渡す
