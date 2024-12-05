@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
   
 ## ライセンス  
--このプロジェクトは(https://github.com/YuMaNaI/robosys2024/blob/main/LICENSE) のもとで公開されています。  
+- このプロジェクトは(https://github.com/YuMaNaI/robosys2024/blob/main/LICENSE) のもとで公開されています。  
 - このソフトパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます  
 - © 2024 Yuma Naito  
 
