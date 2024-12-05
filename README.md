@@ -10,8 +10,7 @@
 
  
 ## 使用方法
-kadai1.pyというファイルを作る  
-```$ vi kadai1.py```
+
 
 サンプルコード
 ```
@@ -37,18 +36,16 @@ if __name__ == "__main__":
     main()
 ```
 
-kadai1.pyと同じ場所でnums1というファイルを作る。  
-```$ vi nums1```  
-
-距離（スペース）時間　を入力する。  
+サンプルコードと同じ場所でnums1というファイルを作り、距離（スペース）時間　を入力する。  
 例(nums1)   
-```100 10```
+```100 10```  
+
 
 
   
 ## 実行例  
 方法1    
-```$ echo "100 10" | ./kadai1.py```  
+```$ echo "100 10" | ./<ファイル名>```  
 ```10.0 メートル/秒```    
   
 方法2  
@@ -66,12 +63,13 @@ kadai1.pyと同じ場所でnums1というファイルを作る。
 
   
 ## ライセンス  
+-このプロジェクトは(https://github.com/YuMaNaI/robosys2024/blob/main/LICENSE) のもとで公開されています。  
 - このソフトパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます  
 - © 2024 Yuma Naito  
+
 
 ## 参考  
 https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f  
 
-- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-- 下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）は，本人の許可を得て自身の著作とし、参考にしたものです．
+- 下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）を，本人の許可を得て自身の著作とし、参考にしたものです．
     - [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
